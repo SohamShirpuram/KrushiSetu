@@ -1,0 +1,9 @@
+fastapi>=0.110.0
+uvicorn>=0.28.0
+sqlalchemy>=2.0.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+pyjwt>=2.8.0
+bcrypt>=4.1.0
+python-multipart>=0.0.9
+

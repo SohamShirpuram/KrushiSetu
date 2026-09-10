@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRUSHISETU | Farmer & Bulk Buyer Onboarding</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+</head>
+<body>
+
+  <div class="gov-top-bar">
+    <span>🌾 कृषीसेतू | KRUSHISETU - National Agriculture & Supply Chain Network</span>
+    <span>Producer & Buyer Onboarding</span>
+  </div>
+
+  <header class="portal-header">
+    <div class="header-container">
+      <a href="/" class="brand-wrapper">
+        <img src="/assets/logo.svg" alt="KrushiSetu Emblem">
+        <div class="brand-text">
+          <h1>KRUSHISETU</h1>
+          <p>Producer & Buyer Registration</p>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/pages/login.html" class="nav-link">Sign In</a>
+        <a href="/docs" target="_blank" class="nav-link">API Docs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="auth-wrapper" style="max-width: 560px;">
+      <div class="auth-header">
+        <h2>Register Account</h2>
+        <p>Direct enrollment for Farmers and Commercial Bulk Buyers</p>
+      </div>
+
+      <div id="alertBox" class="alert-box"></div>
+
+      <form id="registerForm">
+        <div class="form-group">
+          <label class="form-label" for="role">Registering As *</label>
+          <select id="role" class="form-control" required>
+            <option value="" disabled selected>-- Select Your Role --</option>
+            <option value="FARMER">Farmer (Receives Unique Farmer ID: KS-FMR-XXXX)</option>
+            <option value="BULK_BUYER">Bulk Buyer (Receives Unique Buyer ID: KS-BYR-XXXX)</option>
+          </select>
+          <small style="color: var(--text-muted); font-size: 0.76rem; display: block; margin-top: 4px;">
+            Note: Government, Panchayat, and Warehouse nodes are provisioned by central administration.
+          </small>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="full_name">Full Name / Business Name *</label>
+          <input type="text" id="full_name" class="form-control" placeholder="e.g. Ramesh Narayan Patil or AgroCorp Pvt Ltd" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="username">Username *</label>
+          <input type="text" id="username" class="form-control" placeholder="Choose a unique username" required autocomplete="username">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="email">Official Email Address *</label>
+          <input type="email" id="email" class="form-control" placeholder="e.g. user@example.com" required autocomplete="email">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="password">Password *</label>
+          <input type="password" id="password" class="form-control" placeholder="Minimum 6 characters" required autocomplete="new-password">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="phone">Contact Mobile Number</label>
+          <input type="tel" id="phone" class="form-control" placeholder="e.g. +91 98765 43210">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="location">Village / District / Processing Hub</label>
+          <input type="text" id="location" class="form-control" placeholder="e.g. Shirsuphal Village, Baramati or Chakan MIDC">
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 12px; margin-top: 8px;">
+          Create Account & Assign ID
+        </button>
+      </form>
+
+      <div style="margin-top: 20px; text-align: center; font-size: 0.88rem; color: var(--text-muted);">
+        Already registered?
+        <a href="/pages/login.html" style="color: var(--primary); font-weight: 700; text-decoration: none;">
+          Sign In to Portal →
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="portal-footer">
+    <div class="footer-container">
+      <div>KRUSHISETU (कृषीसेतू) • Government Agriculture Portal</div>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/pages/login.html">Sign In</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/auth.js"></script>
+</body>
+</html>
+

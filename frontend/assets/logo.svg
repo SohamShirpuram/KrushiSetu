@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <!-- Outer Shield / Emblem -->
+  <circle cx="32" cy="32" r="30" fill="#1b5e20" stroke="#81c784" stroke-width="2"/>
+  <!-- Inner Golden Ring -->
+  <circle cx="32" cy="32" r="26" fill="#2e7d32" stroke="#ffb300" stroke-width="1.5" stroke-dasharray="3 2"/>
+  <!-- Sprout / Wheat Leaves -->
+  <path d="M32 46 V24" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- Left Leaf -->
+  <path d="M32 36 C24 36 20 28 20 22 C26 22 32 28 32 36 Z" fill="#c8e6c9" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- Right Leaf -->
+  <path d="M32 30 C40 30 44 22 44 16 C38 16 32 22 32 30 Z" fill="#a5d6a7" stroke="#ffffff" stroke-width="1.5"/>
+  <!-- Golden Sun / Crown Dot -->
+  <circle cx="32" cy="17" r="3" fill="#ffb300"/>
+  <!-- Base Soil Arch -->
+  <path d="M22 48 Q32 44 42 48" stroke="#ffb300" stroke-width="2.5" stroke-linecap="round"/>
+</svg>
+

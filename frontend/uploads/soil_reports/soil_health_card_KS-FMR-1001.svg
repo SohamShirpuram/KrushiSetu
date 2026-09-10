@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1020" width="800" height="1020">
+  <rect x="10" y="10" width="780" height="1000" rx="8" fill="#ffffff" stroke="#2e7d32" stroke-width="3"/>
+  <rect x="25" y="25" width="750" height="110" rx="4" fill="#1b5e20"/>
+  <text x="400" y="65" font-family="sans-serif" font-size="22" font-weight="bold" fill="#ffffff" text-anchor="middle">GOVERNMENT OF MAHARASHTRA</text>
+  <text x="400" y="90" font-family="sans-serif" font-size="15" font-weight="600" fill="#c8e6c9" text-anchor="middle">DEPARTMENT OF AGRICULTURE &amp; SOIL CONSERVATION</text>
+  <text x="400" y="115" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffeb3b" text-anchor="middle">KRUSHISETU OFFICIAL CERTIFIED SOIL HEALTH CARD</text>
+  <rect x="40" y="155" width="720" height="45" rx="4" fill="#f4f7f5" stroke="#c8e6c9" stroke-width="1"/>
+  <text x="55" y="183" font-family="monospace" font-size="14" font-weight="bold" fill="#1b5e20">CERTIFICATE NO: SHC-MH-BMT-2026-1001</text>
+  <text x="520" y="183" font-family="monospace" font-size="13" fill="#52665e">CYCLE: RABI 2026</text>
+  <rect x="40" y="220" width="720" height="160" rx="4" fill="#fafcfb" stroke="#d7e3dc" stroke-width="1"/>
+  <rect x="40" y="220" width="720" height="30" rx="4" fill="#e8f5e9"/>
+  <text x="55" y="241" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1b5e20">SECTION I: FARMER &amp; LAND PARCEL DETAILS</text>
+  <text x="55" y="275" font-family="sans-serif" font-size="12" fill="#52665e">Farmer ID: <tspan font-weight="bold" fill="#1b5e20">KS-FMR-1001</tspan></text>
+  <text x="400" y="275" font-family="sans-serif" font-size="12" fill="#52665e">Aadhaar: <tspan font-weight="bold" fill="#1b5e20">XXXX-XXXX-8921</tspan></text>
+  <text x="55" y="305" font-family="sans-serif" font-size="12" fill="#52665e">Farmer Name: <tspan font-weight="bold" fill="#2c3e50">Ramesh Narayan Patil</tspan></text>
+  <text x="400" y="305" font-family="sans-serif" font-size="12" fill="#52665e">Contact: <tspan font-weight="bold" fill="#2c3e50">+91 98220 44556</tspan></text>
+  <text x="55" y="335" font-family="sans-serif" font-size="12" fill="#52665e">Survey / Gat No: <tspan font-weight="bold" fill="#2c3e50">Gat No. 42/1</tspan></text>
+  <text x="400" y="335" font-family="sans-serif" font-size="12" fill="#52665e">Land Area: <tspan font-weight="bold" fill="#2c3e50">4.50 Acres (1.82 Ha)</tspan></text>
+  <text x="55" y="365" font-family="sans-serif" font-size="12" fill="#52665e">Gram Panchayat: <tspan font-weight="bold" fill="#2c3e50">Shirsuphal Gram Panchayat</tspan></text>
+  <text x="400" y="365" font-family="sans-serif" font-size="12" fill="#52665e">Panchayat Samiti: <tspan font-weight="bold" fill="#2c3e50">Baramati Block, Pune</tspan></text>
+  <rect x="40" y="400" width="720" height="280" rx="4" fill="#ffffff" stroke="#d7e3dc" stroke-width="1"/>
+  <rect x="40" y="400" width="720" height="30" rx="4" fill="#e8f5e9"/>
+  <text x="55" y="421" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1b5e20">SECTION II: LABORATORY SOIL CHEMICAL TEST RESULTS</text>
+  <rect x="50" y="440" width="700" height="26" fill="#f1f6f3"/>
+  <text x="65" y="458" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1b5e20">TEST PARAMETER</text>
+  <text x="260" y="458" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1b5e20">TEST VALUE</text>
+  <text x="400" y="458" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1b5e20">STANDARD RANGE</text>
+  <text x="570" y="458" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1b5e20">EVALUATION</text>
+  <text x="65" y="488" font-family="sans-serif" font-size="12" fill="#2c3e50">Soil Reaction (pH)</text>
+  <text x="260" y="488" font-family="monospace" font-size="13" font-weight="bold" fill="#1b5e20">7.30</text>
+  <text x="400" y="488" font-family="sans-serif" font-size="12" fill="#52665e">6.5 - 7.8</text>
+  <text x="570" y="488" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">OPTIMAL</text>
+  <text x="65" y="524" font-family="sans-serif" font-size="12" fill="#2c3e50">Organic Carbon (OC %)</text>
+  <text x="260" y="524" font-family="monospace" font-size="13" font-weight="bold" fill="#1b5e20">0.68 %</text>
+  <text x="400" y="524" font-family="sans-serif" font-size="12" fill="#52665e">0.50 - 0.75 %</text>
+  <text x="570" y="524" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">MEDIUM</text>
+  <text x="65" y="560" font-family="sans-serif" font-size="12" fill="#2c3e50">Available Nitrogen (N)</text>
+  <text x="260" y="560" font-family="monospace" font-size="13" font-weight="bold" fill="#1b5e20">260.0 kg/ha</text>
+  <text x="400" y="560" font-family="sans-serif" font-size="12" fill="#52665e">280 - 560 kg/ha</text>
+  <text x="570" y="560" font-family="sans-serif" font-size="12" font-weight="bold" fill="#f57f17">MODERATE</text>
+  <text x="65" y="596" font-family="sans-serif" font-size="12" fill="#2c3e50">Available Phosphorus (P2O5)</text>
+  <text x="260" y="596" font-family="monospace" font-size="13" font-weight="bold" fill="#1b5e20">38.0 kg/ha</text>
+  <text x="400" y="596" font-family="sans-serif" font-size="12" fill="#52665e">28 - 56 kg/ha</text>
+  <text x="570" y="596" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">ADEQUATE</text>
+  <text x="65" y="632" font-family="sans-serif" font-size="12" fill="#2c3e50">Available Potassium (K2O)</text>
+  <text x="260" y="632" font-family="monospace" font-size="13" font-weight="bold" fill="#1b5e20">290.0 kg/ha</text>
+  <text x="400" y="632" font-family="sans-serif" font-size="12" fill="#52665e">140 - 280 kg/ha</text>
+  <text x="570" y="632" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">HIGH / RICH</text>
+  <text x="65" y="668" font-family="sans-serif" font-size="12" fill="#2c3e50">Electrical Conductivity (EC)</text>
+  <text x="260" y="668" font-family="monospace" font-size="13" font-weight="bold" fill="#1b5e20">0.42 dS/m</text>
+  <text x="400" y="668" font-family="sans-serif" font-size="12" fill="#52665e">&lt; 1.0 dS/m</text>
+  <text x="570" y="668" font-family="sans-serif" font-size="12" font-weight="bold" fill="#2e7d32">NON-SALINE</text>
+  <rect x="40" y="700" width="720" height="140" rx="4" fill="#f0f7ff" stroke="#b3d7ff" stroke-width="1"/>
+  <text x="55" y="725" font-family="sans-serif" font-size="13" font-weight="bold" fill="#0056b3">SECTION III: CENTRAL AI AGRONOMY ADVISORY</text>
+  <text x="55" y="755" font-family="sans-serif" font-size="12" font-weight="bold" fill="#004085">Recommended Crop: <tspan font-weight="normal" fill="#0c5460">Wheat (Lokwan) — High Suitability Index (96.5%)</tspan></text>
+  <text x="55" y="780" font-family="sans-serif" font-size="12" font-weight="bold" fill="#004085">Fertilizer Schedule: <tspan font-weight="normal" fill="#0c5460">Urea: 65 kg/Acre in 2 split doses. SSP: 40 kg/Acre basal dose.</tspan></text>
+  <text x="55" y="805" font-family="sans-serif" font-size="12" font-weight="bold" fill="#004085">Organic Supplement: <tspan font-weight="normal" fill="#0c5460">Apply 2.5 MT/Acre FYM to maintain organic carbon reserve.</tspan></text>
+  <rect x="40" y="860" width="720" height="100" rx="4" fill="#fafcfb" stroke="#d7e3dc" stroke-width="1"/>
+  <text x="60" y="890" font-family="sans-serif" font-size="12" fill="#52665e">Testing Laboratory: <tspan font-weight="bold" fill="#2c3e50">Baramati Agricultural Soil &amp; Water Analysis Center</tspan></text>
+  <text x="60" y="915" font-family="sans-serif" font-size="12" fill="#52665e">Authorized Scientist: <tspan font-weight="bold" fill="#2c3e50">Dr. Arvind G. Kulkarni, Senior Soil Analyst</tspan></text>
+  <circle cx="670" cy="910" r="30" fill="none" stroke="#2e7d32" stroke-width="2" stroke-dasharray="3,2"/>
+  <text x="670" y="908" font-family="sans-serif" font-size="8" font-weight="bold" fill="#2e7d32" text-anchor="middle">GOVT OF MH</text>
+  <text x="670" y="920" font-family="sans-serif" font-size="7" font-weight="bold" fill="#1b5e20" text-anchor="middle">VERIFIED</text>
+</svg>

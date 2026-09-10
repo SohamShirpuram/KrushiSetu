@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KRUSHISETU | Secure Portal Login</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="/assets/logo.svg">
+</head>
+<body>
+
+  <div class="gov-top-bar">
+    <span>🌾 कृषीसेतू | KRUSHISETU - National Agriculture & Supply Chain Network</span>
+    <span>Single Sign-On (SSO) Gateway</span>
+  </div>
+
+  <header class="portal-header">
+    <div class="header-container">
+      <a href="/" class="brand-wrapper">
+        <img src="/assets/logo.svg" alt="KrushiSetu Emblem">
+        <div class="brand-text">
+          <h1>KRUSHISETU</h1>
+          <p>National Agricultural Traceability System</p>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="/" class="nav-link">Home</a>
+        <a href="/pages/register.html" class="nav-link">Register (Farmer/Buyer)</a>
+        <a href="/docs" target="_blank" class="nav-link">API Docs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="auth-wrapper">
+      <div class="auth-header">
+        <img src="/assets/logo.svg" alt="Emblem" style="width: 54px; height: 54px; margin-bottom: 8px;">
+        <h2>Portal Sign In</h2>
+        <p>Access your authorized KrushiSetu supply chain node</p>
+      </div>
+
+      <div id="alertBox" class="alert-box"></div>
+
+      <!-- Quick Demo Role Switcher for Fast Evaluation -->
+      <div class="role-quick-selector">
+        <label>⚡ Quick Test Credentials (Select Role):</label>
+        <div class="demo-chips">
+          <button type="button" class="demo-chip" data-user="food_dept">Food Dept</button>
+          <button type="button" class="demo-chip" data-user="panchayat_samiti">Panchayat Samiti</button>
+          <button type="button" class="demo-chip" data-user="gram_panchayat">Gram Panchayat</button>
+          <button type="button" class="demo-chip" data-user="farmer_demo">Farmer (KS-FMR-1001)</button>
+          <button type="button" class="demo-chip" data-user="major_warehouse">Major Warehouse</button>
+          <button type="button" class="demo-chip" data-user="minor_warehouse">Minor Warehouse</button>
+          <button type="button" class="demo-chip" data-user="bulk_buyer_demo">Bulk Buyer (KS-BYR-5001)</button>
+          <button type="button" class="demo-chip" data-user="admin">Admin</button>
+        </div>
+      </div>
+
+      <form id="loginForm">
+        <div class="form-group">
+          <label class="form-label" for="username">Username or Official Email</label>
+          <input 
+            type="text" 
+            id="username" 
+            class="form-control" 
+            placeholder="e.g. farmer_demo or ramesh.patil@krushisetu.gov.in" 
+            required 
+            autocomplete="username"
+          >
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="password">Password</label>
+          <input 
+            type="password" 
+            id="password" 
+            class="form-control" 
+            placeholder="Enter password" 
+            required 
+            autocomplete="current-password"
+          >
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 8px; padding: 12px;">
+          Sign In to Portal
+        </button>
+      </form>
+
+      <div style="margin-top: 24px; text-align: center; font-size: 0.88rem; color: var(--text-muted);">
+        Are you a new Farmer or Bulk Buyer?
+        <br>
+        <a href="/pages/register.html" style="color: var(--primary); font-weight: 700; text-decoration: none;">
+          Register for KrushiSetu Account →
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="portal-footer">
+    <div class="footer-container">
+      <div>KRUSHISETU (कृषीसेतू) • Government Agriculture Portal</div>
+      <div class="footer-links">
+        <a href="/">Home</a>
+        <a href="/pages/register.html">Farmer/Buyer Registration</a>
+        <a href="/api/health">System Status</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/api.js"></script>
+  <script src="/js/auth.js"></script>
+</body>
+</html>
+
